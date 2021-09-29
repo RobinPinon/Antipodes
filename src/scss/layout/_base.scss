@@ -1,28 +1,21 @@
-.creator-card {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    background-color: $primary;
-    position: absolute;
-    bottom: 0;
-    transform: translate(0%, 50%);
-    right: $size-4;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.columns {
+    min-width: 100%;
+}
 
-    &-info {
-        display: flex;
-        flex-direction: row;
-
-        & figure {
-            margin-right: 1rem;
-        }
+.hero.is-fullheight {
+    @include until ($tablet) {
+        display: block;
     }
 }
 
-.subtitle {
-    max-width: 80%;
-
+.hero-foot {
     @include until ($tablet) {
-        max-width: 60%;
+        position: absolute;
+        bottom: 1rem;
+        right: 0;
+        left: 0;
+    }
+    @include from ($tablet) {
+        padding-bottom: 1rem;
     }
 }

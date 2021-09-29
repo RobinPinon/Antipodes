@@ -11,35 +11,37 @@
 </head>
 
 <body>
-    <!-- <header class="header">
-        <nav class="navbar">
-            <div class="container">
+    <section class="hero is-primary is-fullheight">
+        <div class="hero-head">
+            <nav class="navbar">
                 <div class="navbar-brand">
-                    <a class="button" href="#">THIS INTERIOR</a>
-                </div>
-                <div class="navbar-menu">
-                    <div class="navbar-end">
-                        <div class="burger-menu is-hidden-desktop">
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                    <a class="button navbar-item" aria-label="logo" href="">THIS INTERIOR</a>
 
-                            <div class="navbar-burger-menu">
-                                <a href="#home">Home</a>
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
 
-                                <a href="#collection">Collection</a>
-                                <a href="#about">About</a>
-                                <a href="#contact">Contact</a>
-                            </div>
-                        </div>
+                    <div class="navbar-burger-menu-desktop is-hidden-touch is-flex">
+                        <a href="#home" class="is-size-4 navbar-item">Home</a>
+                        <a href="#collection" class="is-size-4 navbar-item">Collection</a>
+                        <a href="#about" class="is-size-4 navbar-item">About</a>
+                        <a href="#contact" class="is-size-4 navbar-item">Contact</a>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </header> -->
 
-    <main>
-        <section class="section hero is-primary is-fullheight">
+
+                <div class="navbar-burger-menu is-hidden-desktop">
+                    <a href="#home" class="is-size-4 navbar-item is-active">Home</a>
+                    <a href="#collection" class="is-size-4 navbar-item">Collection</a>
+                    <a href="#about" class="is-size-4 navbar-item">About</a>
+                    <a href="#contact" class="is-size-4 navbar-item">Contact</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="hero-body">
             <div class="columns">
                 <div class="column is-5">
                     <h1 class="title is-2 is-size-1-desktop">
@@ -57,13 +59,13 @@
                 <div class="column is-7">
                     <div class="is-relative">
                         <figure class="image is-5by3">
-                            <img src="/assets/images/photo1.png" alt="Modern Interior Example">
+                            <img src="/assets/images/photo1.png" alt="Modern Interior Example" loading="lazy">
                         </figure>
 
                         <div class="creator-card">
-                            <div class="creator-card-info pb-1">
+                            <div class="creator-card-info">
                                 <figure class="image is-48x48">
-                                    <img class="is-rounded" src="/assets/images/photo2.png" alt="Aliza Webber Profile Picture">
+                                    <img class="is-rounded" src="/assets/images/photo2.png" alt="Aliza Webber Profile Picture" loading="lazy">
                                 </figure>
                                 <div class="content">
                                     <p class="has-text-weight-medium is-size-6 is-size-5-desktop mb-0">Aliza Webber</p>
@@ -79,12 +81,15 @@
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
 
+        <div class="hero-foot">
+            <div class="content has-text-light has-text-centered is-size-5">
+                Created by Sopralus - Robin Pinon
+            </div>
+        </div>
+    </section>
 
-    <footer>
-    </footer>
 	<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
