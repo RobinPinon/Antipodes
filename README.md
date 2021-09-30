@@ -1,6 +1,11 @@
 # Interior consultant challenge - Antipodes
 
-Projet utilisant Bulma et webpack.
+https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb
 
-Faire :
+Dev Challenges Modern Interior: 
+
+A project using bulma and webpack
+
+-- To do when clone
+
 yarn install
