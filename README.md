@@ -9,3 +9,9 @@ A project using bulma and webpack
 -- To do when clone
 
 yarn install
+
+yarn run build
+
+yarn run dev
+
+yarn run watch
